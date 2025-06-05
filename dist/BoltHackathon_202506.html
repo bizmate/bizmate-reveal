@@ -6,9 +6,13 @@
 
 		<title>reveal.js - Slide Transitions</title>
 
-		<link rel="stylesheet" href="./reveal.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.min.css" integrity="sha512-ZIo9ivf88U0L1S+0D/npMNTTkjez5B9cK5xIecN4IA2OmtbTNBbPAZo/0cBC195sq7FU7cEOVPwtit37f/+1rQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/theme/league.min.css" integrity="sha512-+hLSdatv0ZBNKiu3eJrAls1j52I2aGh8Fs8bRyk4cKuOoPHjU4MzPtfI5rzmMyTMrpmJoWjtzww/mAcc3GqxXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- <link rel="stylesheet" href="./reveal.css">
 		<link rel="stylesheet" href="./theme/league.css" id="theme">
-		<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="./plugin/highlight/monokai.css"> -->
 		<style type="text/css" media="screen">
 			.slides section.has-dark-background,
 			.slides section.has-dark-background h3 {
@@ -49,9 +53,27 @@
 				<section data-transition="zoom-in fade-out">
 					<div class="r-fit-text">
 						<H2>LLMs</H2>
-						<img width="70%" alt="Bolt.new Hackathon AI" src="./assets/LLMS.png">
+						<img width="70%" alt="LLMs" src="./assets/LLMS.png">
 						<p>LLMs (Large Language Models) are a type of artificial intelligence that can generate human-like text based on input data. LLMs have been used to create chatbots, language translation tools, and other</p>
-						<a href="https://trailhead.salesforce.com/content/learn/modules/natural-language-processing-basics" target="_blank">NLM Explained in Salesforce Trailhead</a>
+						<a href="https://trailhead.salesforce.com/content/learn/modules/natural-language-processing-basics" target="_blank">NLM Explained in Salesforce Trailhead</a> - Ollama Example
+					</div>
+				</section>
+				<section data-transition="zoom-out fade-in">
+					<div class="r-fit-text">
+						<H2>Where can I learn more</H2>
+						<a href="https://timesofindia.indiatimes.com/technology/tech-news/google-ai-ceo-demis-hassabis-if-i-were-a-student-right-now-i-would-study-/articleshow/121586013.cms" target="_blank">
+							<img width="50%" alt="STEMs" src="./assets/DemisHassabis_STEM_2025-06-05 09-06-48.png">
+						</a>
+						<table>
+							<tr>
+								<td><a href="https://pll.harvard.edu/catalog/free" title="https://pll.harvard.edu/catalog/free" target="_blank" >Harvard</a></td>
+								<td><a href="https://www.udacity.com/catalog" target="_blank">Udacity </a></td>
+								<td><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></td>
+							</tr>
+							<tr>
+								<td colspan="3">Why is AI so important -> <a href="https://www.youtube.com/shorts/s-okz_-pUHo" target="_blank">Full stack AI</a></td>
+							</tr>
+						</table>
 					</div>
 				</section>
 				
@@ -62,6 +84,7 @@
 				</section>
 				<section data-transition="zoom" class="r-fit-text">
 					<img  alt="Bolt.new Hackathon AI - What is bolt" src="./assets/WLH_Grand_Baie-Mauritius_WhatIsBolt.jpg">
+					<p><a href="https://bolt.new/~/sb1-lagqopop" target="_blank">Bolt project</a></p>
 				</section>
 				<section data-transition="convex">
 					<img  alt="Bolt.new Hackathon AI Bolt features" src="./assets/WLH_Grand_Baie-Mauritius_BoltFeatures.jpg">
@@ -94,49 +117,54 @@
 				</section>
 
 				<section data-transition="zoom-in fade-out">
-					<h3>data-transition: zoom-in fade-out</h3>
+					<h3>4 Tools out there</h3>
+					<img height="500vh" alt="Bolt.new Hackathon AI - Tools" src="./assets/AI_CodeGenerators_2025-06-05_11-18-41.png">
 				</section>
 
 				<section>
-					<h3>Default</h3>
+					<h3>Prompt Hallucinations</h3>
+					<img height="500vh" alt="Bolt.new Hackathon AI - Prompt Hallucinations" src="./assets/EditorDeviations_2025-06-05 11-21-32.png">
+					<p>-> Example on Lovable </p>
 				</section>
 
 				<section data-transition="convex">
-					<h3>data-transition: convex</h3>
+					<h3>Prompt Planning</h3>
+					<img width="70%" alt="Bolt.new Hackathon AI - Prompt Planning" src="./assets/PromptPlanning_2025-06-05_18-08-11.png">
+					<p>act like you're also a lead product designer or an expert at wireframing and come up with intricate details to describe exactly what I'm trying to build...</p>
+				</section>
+				<section data-transition="convex-in concave-out">
+					<h3>Prompt Input</h3>
+					<img height="500vh" alt="Bolt.new Hackathon AI - Prompt Weapons" src="./assets/TalkToPrompts_2025-06-05 10-25-34.png">
+				</section>
+
+				<section data-transition="convex">
+					<h3>Integration aspects - out of the box</h3>
+					<img height="500vh" alt="Bolt.new Hackathon AI - Prompt built-in integrations" src="./assets/BoltBuiltInIntegrations_2025-06-05_18-18-56.png">
+					<p>Bolt.new built-in integrations</p>
+				</section>
+				<section data-transition="zoom-out">
+					<h3>Custom integration Platforms</h3>
+					<img  alt="Bolt.new Hackathon AI - Custom Integration" src="./assets/CustomIntegration_2025-06-05_12-26-45.png">
+				</section>
+				<section data-transition="zoom-in">
+					<h3>Custom integration Workflow</h3>
+					<img  alt="Bolt.new Hackathon AI - WebHooks" src="./assets/WebHooks.png">
 				</section>
 
 				<section data-transition="convex-in concave-out">
-					<h3>data-transition: convex-in concave-out</h3>
+					<h3>Any idea of what you would like to build?</h3>
+					<img height="500vh" alt="Meter readying?" src="./assets/FakeMeterReadying_2025-06-05_19-33-35.png">
 				</section>
-
-				<section>
-					<section data-transition="zoom">
-						<h3>Default</h3>
-					</section>
-					<section data-transition="concave">
-						<h3>data-transition: concave</h3>
-					</section>
-					<section data-transition="convex-in fade-out">
-						<h3>data-transition: convex-in fade-out</h3>
-					</section>
-					<section>
-						<h3>Default</h3>
-					</section>
-				</section>
-
-				<section data-transition="none">
-					<h3>data-transition: none</h3>
-				</section>
-
-				<section>
-					<h3>Default</h3>
-				</section>
-
 			</div>
 
 		</div>
 
-		<script src="././reveal.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.js" integrity="sha512-GvouLVZT+gJSJW5eOfpG46xTaBb2c3VeNnbzmDYTRQkFlgvxNhnzZQqiQ/jAyAYPh+a9roBvAHJP6zvXIVq34Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/zoom/plugin.min.js" integrity="sha512-5E1n0Zt9hdUrokt7Vn5oGZDw/2UyX4WKQxWQ8DfLx9nNf6pPzI+y4fhYbkDZE+7ty8z+o+GWQCubsuUDTr85dQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/zoom/zoom.min.js" integrity="sha512-Gras1ky8LoFJWwMTxBWyN2wfHfnJXQlyhHFH3M+m/jHe297DZsrQxg9P6Kxka6waxl4NeeQzietoFlCxL7x10g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<!-- <script src="././reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script> -->
 		<script>
 			Reveal.initialize({
 				center: true,
@@ -145,6 +173,7 @@
 				// transition: 'slide',
 				// transitionSpeed: 'slow',
 				// backgroundTransition: 'slide'
+				plugins: [  RevealZoom ]
 			});
 		</script>
 
